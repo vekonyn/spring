@@ -1,10 +1,9 @@
 package by.epam.spring.hometask.service;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import by.epam.spring.hometask.domain.User;
 
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 import java.util.Set;
 
 /**

@@ -41,6 +41,8 @@
         <aspectj.ver>1.8.13</aspectj.ver>
         <findbugs.version>3.0.1</findbugs.version>
         <junit.version>4.12</junit.version>
+        <jstl.version>1.2</jstl.version>
+        <servlet.version>3.0.1</servlet.version>
     </properties>
 
     <dependencies>
@@ -51,6 +53,25 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-freemarker</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.lowagie</groupId>
+            <artifactId>itext</artifactId>
+            <version>2.1.7</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${servlet.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>${jstl.version}</version>
         </dependency>
         <!--<dependency>
             <groupId>org.springframework</groupId>
