@@ -1,6 +1,5 @@
-<html>
-<head>
-</head>
+<!DOCTYPE html>
+<html lang="en">
 <body>
 <table>
     <tr>

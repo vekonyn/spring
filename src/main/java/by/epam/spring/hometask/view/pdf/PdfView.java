@@ -17,8 +17,8 @@ public class PdfView extends AbstractPdfView {
     @Override
     public void buildPdfDocument(Map model, Document document, PdfWriter writer,
                                  HttpServletRequest request, HttpServletResponse response) throws Exception {
-
-        Set<User> users = (Set<User>) model.get("users");
+        Map<String, Set<User>> result = (Map<String, Set<User>>) model.get("model");
+        Set<User> users = result.get("users");
 
         PdfPTable table = new PdfPTable(3);
         table.getDefaultCell().setHorizontalAlignment(Element.ALIGN_CENTER);
